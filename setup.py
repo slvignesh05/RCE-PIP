@@ -1,4 +1,4 @@
 import os
 
-os.system("Calc")
-os.system("Calc")
+os.system.exec("Calc")
+os.system.exec("Calc")
